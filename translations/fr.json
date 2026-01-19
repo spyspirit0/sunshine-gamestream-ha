@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurer LizardByte Sunshine",
+        "description": "Entrez les détails de connexion de votre serveur Sunshine.",
+        "data": {
+          "name": "Nom du serveur",
+          "host": "Adresse IP de l'hôte",
+          "port": "Port",
+          "username": "Nom d'utilisateur (optionnel)",
+          "password": "Mot de passe (optionnel)",
+          "scan_interval": "Intervalle de mise à jour (secondes)"
+        },
+        "data_description": {
+          "name": "Un nom convivial pour ce serveur Sunshine (ex: PC Gaming, PC Salon)",
+          "host": "Adresse IP du PC exécutant Sunshine (ex: 192.168.1.100)",
+          "port": "Port de l'interface Web (par défaut: 47990)",
+          "username": "Laisser vide si l'authentification n'est pas activée sur votre serveur Sunshine",
+          "password": "Laisser vide si l'authentification n'est pas activée sur votre serveur Sunshine",
+          "scan_interval": "Fréquence de vérification du statut de streaming (par défaut: 2 secondes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Échec de connexion au serveur Sunshine. Vérifiez l'adresse IP, le port et assurez-vous que Sunshine est en cours d'exécution.",
+      "invalid_auth": "Nom d'utilisateur ou mot de passe invalide. Vérifiez vos identifiants de l'interface Web Sunshine.",
+      "timeout": "Délai de connexion dépassé. Vérifiez si le serveur est accessible.",
+      "unknown": "Une erreur inattendue s'est produite. Consultez les journaux pour plus de détails."
+    },
+    "abort": {
+      "already_configured": "Ce serveur Sunshine est déjà configuré."
+    }
+  }
+}

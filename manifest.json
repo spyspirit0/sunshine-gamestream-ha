@@ -1,0 +1,11 @@
+{
+  "domain": "sunshine_gamestream",
+  "name": "LizardByte Sunshine",
+  "documentation": "github.com/lefebp/sunshine-gamestream-ha",
+  "requirements": ["requests>=2.31.0"],
+  "codeowners": [],
+  "version": "2.1.0",
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "icon": "mdi:controller"
+}
